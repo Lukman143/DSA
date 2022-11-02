@@ -31,10 +31,12 @@ public class CountEachOccurences {
 				count = 1;
 			}
 		}
-		LinkedHashMap<String, Integer> sortedMap = new LinkedHashMap<>();
-
-		map.entrySet().stream().sorted(Map.Entry.comparingByKey())
-				.forEachOrdered(x -> sortedMap.put(x.getKey(), x.getValue()));
-		System.out.println("map after sorting by values: " + sortedMap);
+		/*
+		 * LinkedHashMap<String, Integer> sortedMap = new LinkedHashMap<>();
+		 * 
+		 * map.entrySet().stream().sorted(Map.Entry.comparingByKey()) .forEachOrdered(x
+		 * -> sortedMap.put(x.getKey(), x.getValue()));
+		 * System.out.println("map after sorting by values: " + sortedMap);
+		 */
 	}
 }

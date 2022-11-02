@@ -15,10 +15,6 @@ public class LowertoUpperCaseString {
 			} else if (i%2==0&&ch[i] >= 97 && ch[i] <= 122) {
 				ch[i]-=32;
 			}
-			
-			
-			
-			
 		}
 		System.out.println(ch);
 
