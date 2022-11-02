@@ -14,10 +14,10 @@ public class Main {
 		list.insertLast(14);
 		list.insertLast(15);
 		list.insert(100, 3);
-		 System.out.println(list.deleteLast());
-		list.display();
-		
+		// System.out.println(list.deleteLast());
 		// System.out.println(list.deleteFirst());
+		System.out.println(list.delete(2));
+		list.display();
 
 	}
 }

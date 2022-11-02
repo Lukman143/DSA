@@ -99,6 +99,9 @@ public class LL {
 		if (index == size - 1) {
 			return deleteLast();
 		}
-		return index;
+		Node prev = get(index - 1);
+		int value = prev.next.value;
+		prev.next = prev.next.next;
+		return value;
 	}
 }
